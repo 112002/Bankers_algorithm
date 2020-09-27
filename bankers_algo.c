@@ -84,5 +84,5 @@ int counter = 0, i, j, exec, resources, processes, k = 1;
  
     	for (i = 0; i < resources; i++) 
 	{
-	        available[i] = maxres[i]
+	        available[i] = maxres[i] - allocation[i];
 	}
