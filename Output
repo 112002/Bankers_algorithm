@@ -1,1 +1,38 @@
 ~$ gcc 19BCE2145_bankers.c -o resultbankers -lpthread
+~$ ./resultbankers
+
+Enter number of processes: 2
+
+Enter number of resources: 3
+
+Enter Claim Vector:1
+3
+5
+
+Enter Allocated Resource Table:
+2 3
+2 5
+3 9
+
+Enter Maximum Claim Table:
+2
+4
+6
+7
+8
+9
+
+The Claim Vector is:    1       3       5
+The Allocated Resource Table:
+        2       3       2
+        5       3       9
+
+The Maximum Claim Table:
+        2       4       6
+        7       8       9
+
+Allocated resources:    7       6       11
+Available resources:    -6      -3      -6
+
+The processes are in unsafe state.
+~$ 
